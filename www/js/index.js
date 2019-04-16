@@ -43,11 +43,14 @@ var app = {
 
 
     success: function (mediaFiles) {
+       console.log(mediaFiles.length)
         let path, len;
         for (let i = 0, len = mediaFiles.length; i < len; i++) {
-            let video = document.getElementById('video');
+             let video = document.getElementById('video');
+             let video2 = document.getElementById('video2');
              path = mediaFiles[i].fullPath;
              video.src = path;  
+             video2.src = path;
         }  
       },
       
@@ -155,7 +158,9 @@ var app = {
         //get the file from the fileEntry Object
         console.log(file); //file has localURL property for cdvfile: version
         console.log(fileEntry);
-        
+
+        let video2 = document.getElementById('video2');
+        video2.poster = file.localURL;
     
         let img = document.createElement("img");
         img.src = file.localURL;

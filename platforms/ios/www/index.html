@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head> 
-        <!-- <meta http-equiv="Content-Security-Policy" 
+        <meta http-equiv="Content-Security-Policy" 
             content="default-src 'self' data: gap: 'unsafe-eval' ws: ;
              style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/;
-             img-src 'self' data: content: ;
-             font-src 'self' data: https://fonts.gstatic.com/ https://fonts.googleapis.com/;"> -->
+             img-src 'self' data: content: cdvfile:;
+             font-src 'self' data: https://fonts.gstatic.com/ https://fonts.googleapis.com/;">
+
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
-        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" type="text/css" href="css/index.css">
         <title>Thumbed</title>
     </head>
@@ -23,28 +24,12 @@
             <div id="goToList"><p>Gallery</p></div> 
         </div>
 
-            <!-- <form action="#" id="myform" enctype="multipart/form-data">
-                <label for="capture">Capture Media</label>
-                
-                <input type="file" 
-                id="capture" 
-                accept="video/*" 
-                capture 
-                multiple />
-                
-                <br/>
-                <input type="submit" value="Process" /> -->
-
-                <!-- <p id="makeImg">Click here</p> -->
-                
-            <!-- </form> -->
-
             <div class="vidbtnDiv">
                 <button id="makeVD">Let's take a video</button> 
             </div>
             
             <div class="videoDiv">
-                <video src="" id="video" controls></video>
+                <video src="" id="video" controls autoplay muted></video>
             </div>
             
             <section id="can">
@@ -52,15 +37,15 @@
             </section>    
 
         </div>
-        
-    
-
         <div class="page" id="modify-page">
         <div class="header">
         <img id="img" src="img/thumb-logo.png"/>
-        <div id="goToHome"><i class="material-icons">add</i></div> 
-                    </div>
-            <p>My list</p>
+        <div id="goToHome"><i class="material-icons">add_circle_outline</i></div> 
+        </div>
+            <h2>My list</h2>
+            <div class="videoDiv">
+                <video src="" id="video2" controls autoplay muted></video>
+                </div>
             <ul class="thumbList">
 
             </ul>

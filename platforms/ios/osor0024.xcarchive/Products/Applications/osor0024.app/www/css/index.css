@@ -2,13 +2,17 @@
 * {
     padding: 0;
     margin: 0;
-/*    box-sizing: border-box;*/
 }
-.makeImg{
-border: 1rem solid black;
+body{
+    background-color:#fffbbe;
+    font-family: 'PT Sans', sans-serif; 
+}
+h2{
+    margin: 1.5rem;
+    color: #333333;
+    font-size: 2rem;
 }
 canvas{
-    /* border: 4px solid gold; */
     width: 90%;
     height: auto;
 }
@@ -16,14 +20,12 @@ canvas{
     text-align: center;
 }
 #video{
-    /* border: 4px solid red; */
     width: 21rem;
     height: 21rem;
 }
 #img{
     padding: 1rem;
 }
-
 .header{
     display: flex;
     justify-content: space-between;
@@ -40,9 +42,6 @@ section{
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.app{
-    background-color: purple;
-}
 .page {
     display: none;
 }
@@ -50,19 +49,16 @@ section{
     display: block;
 }
 li{
-    border-bottom: 10px solid #808080;
-}
-body{
-    background-color:#fffbbe;
-    font-family: 'PT Sans', sans-serif;
-    
+    border-bottom: 5px solid #808080;
 }
 ul{
     margin: 1.5rem;
+    list-style-type: none;
 }
 .imgList{
-    width: 4rem;
-    height: 4rem;
+    margin: 1rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 
@@ -71,6 +67,13 @@ ul{
 #goToList{
    margin: 1rem;
    padding: 2rem;
+   color: #473B5B;
+}
+#goToHome{
+    margin: 2rem;
+    padding: 0rem; 
+    /* font-size: 9rem; */
+    color:#473B5B;
 }
 .videoDiv{
     text-align: center;

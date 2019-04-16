@@ -98,7 +98,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TrxQK9mq0uT2zpjg6W2pwa99vEQ=
+		L3YjilAdXY/FSLMNcqTMFGz1yHA=
 		</data>
 		<key>CDVCapture.bundle/controls_bg.png</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		RprvziaP0pIzsxpTfWaGvCUFbzQ=
+		uZcJYwL3c4H5OFFk1ZH4MjMBJy8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -230,7 +230,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		40KXcXJjrYirABhWaDoNArS3UP8=
+		U6WJvk/o4aGJH2U3ccbZiBfz1qQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		E6x6UwG8ykBf2wGb7RwV+IDxav8=
+		Ep3Tg2ZrabtIP0bXYHhYkVrOz4k=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -278,7 +278,7 @@
 		</data>
 		<key>www/css/index.css</key>
 		<data>
-		o/xlIrQ5q8Wt32drtbVNSsFh910=
+		cdO7REYfAx+3yMawttOpbY/L+lY=
 		</data>
 		<key>www/img/logo.png</key>
 		<data>
@@ -290,11 +290,11 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		7ESWNjLAPX+y13zFuW3qv081q+o=
+		HNo8PHhgJjDLBWfKQ6IT4lh47qY=
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		bJqCzz09oQ8zTiBQPx96k0TFRg8=
+		lLS/x8m63OIetHTAsK8qOHhWvDQ=
 		</data>
 		<key>www/plugins/cordova-plugin-file/www/DirectoryEntry.js</key>
 		<data>
@@ -684,11 +684,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TrxQK9mq0uT2zpjg6W2pwa99vEQ=
+			L3YjilAdXY/FSLMNcqTMFGz1yHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			tlvoBM369xoJgz8sex7F+IUXBv3nJ8z0RUEleXyClmY=
+			63ERqqhYjVcIftOKcoindtnyCNYngToKUtzxOIaahnU=
 			</data>
 		</dict>
 		<key>CDVCapture.bundle/controls_bg.png</key>
@@ -978,11 +978,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RprvziaP0pIzsxpTfWaGvCUFbzQ=
+			uZcJYwL3c4H5OFFk1ZH4MjMBJy8=
 			</data>
 			<key>hash2</key>
 			<data>
-			TJl6LuCnn8gH2NPo8bkZOXH9KOblx+16PLnMQbLL0gE=
+			b9+8FBiIlXTTUPXyseZA0uwQ/MzERz1qOjv1xuhJmhM=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -1000,22 +1000,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			40KXcXJjrYirABhWaDoNArS3UP8=
+			U6WJvk/o4aGJH2U3ccbZiBfz1qQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZVWxitn+tRxz8uM5faswYPAk7Okif9yddIhVh+e7tdw=
+			yuwHWhzOwfYjXG0pUv3AXqWsNoilnWjAzlYSH5jm6ZQ=
 			</data>
 		</dict>
 		<key>MainViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E6x6UwG8ykBf2wGb7RwV+IDxav8=
+			Ep3Tg2ZrabtIP0bXYHhYkVrOz4k=
 			</data>
 			<key>hash2</key>
 			<data>
-			MTCb0h1G0esh0h3JtW7ifIWAYTdFPx2vh3a7m8bkJYg=
+			sB+6nOP5jGO8fJx2jK34mg315WunsFlei+bZh9JtDVM=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1110,11 +1110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			o/xlIrQ5q8Wt32drtbVNSsFh910=
+			cdO7REYfAx+3yMawttOpbY/L+lY=
 			</data>
 			<key>hash2</key>
 			<data>
-			po7SCaBZGprjVyPHYKgPC8ofa+L2luGKQXYj+OZOevM=
+			9lbvC2SNeKcsGk2nJ2ATJVJ2gJGNmK1nn6iitBIDRfg=
 			</data>
 		</dict>
 		<key>www/img/logo.png</key>
@@ -1143,22 +1143,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7ESWNjLAPX+y13zFuW3qv081q+o=
+			HNo8PHhgJjDLBWfKQ6IT4lh47qY=
 			</data>
 			<key>hash2</key>
 			<data>
-			zgtuHS3gv4lFGStHD41SlU2zxiG2S/R9pwiAtUNHsnQ=
+			RuPg+uQW4Rjf9Oi6ArQ76IEclfAFZzlD+lq19ZF0xsQ=
 			</data>
 		</dict>
 		<key>www/js/index.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bJqCzz09oQ8zTiBQPx96k0TFRg8=
+			lLS/x8m63OIetHTAsK8qOHhWvDQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			yCvHu38ztnVzGvGwq2nr+tWf9dcZ9qVfYfo9vwCVuxg=
+			76+sfFJhJW0dkTFfNL+uxBa0IExPhZl99+fbrj+S1Sw=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-file/www/DirectoryEntry.js</key>
