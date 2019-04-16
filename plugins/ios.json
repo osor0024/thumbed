@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "ca.edumedia.osor0024.thumbed"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "ca.edumedia.osor0024.thumbed"
+    },
+    "cordova-plugin-media": {
+      "KEEP_AVAUDIOSESSION_ALWAYS_ACTIVE": "NO",
+      "PACKAGE_NAME": "ca.edumedia.osor0024.thumbed"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "ca.edumedia.osor0024.thumbed"
+    }
+  },
+  "dependent_plugins": {}
+}

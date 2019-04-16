@@ -1,48 +1,71 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
-    <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-        -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+    <head> 
+        <!-- <meta http-equiv="Content-Security-Policy" 
+            content="default-src 'self' data: gap: 'unsafe-eval' ws: ;
+             style-src 'self' 'unsafe-inline' https://fonts.googleapis.com/;
+             img-src 'self' data: content: ;
+             font-src 'self' data: https://fonts.gstatic.com/ https://fonts.googleapis.com/;"> -->
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
         <link rel="stylesheet" type="text/css" href="css/index.css">
-        <title>Hello World</title>
+        <title>Thumbed</title>
     </head>
     <body>
-        <div class="app">
-            <h1>Apache Cordova</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
+
+        <div class="page active" id="home-record">
+        <div class="header">
+            <img id="img" src="img/thumb-logo.png"/>
+            <div id="goToList"><p>Gallery</p></div> 
         </div>
+
+            <!-- <form action="#" id="myform" enctype="multipart/form-data">
+                <label for="capture">Capture Media</label>
+                
+                <input type="file" 
+                id="capture" 
+                accept="video/*" 
+                capture 
+                multiple />
+                
+                <br/>
+                <input type="submit" value="Process" /> -->
+
+                <!-- <p id="makeImg">Click here</p> -->
+                
+            <!-- </form> -->
+
+            <div class="vidbtnDiv">
+                <button id="makeVD">Let's take a video</button> 
+            </div>
+            
+            <div class="videoDiv">
+                <video src="" id="video" controls></video>
+            </div>
+            
+            <section id="can">
+                <canvas id="canvas"></canvas>
+            </section>    
+
+        </div>
+        
+    
+
+        <div class="page" id="modify-page">
+        <div class="header">
+        <img id="img" src="img/thumb-logo.png"/>
+        <div id="goToHome"><i class="material-icons">add</i></div> 
+                    </div>
+            <h2>My list</h2>
+            <ul class="thumbList">
+
+            </ul>
+        </div>
+
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
     </body>
