@@ -60,7 +60,9 @@ ul{
     width: 6rem;
     height: 6rem;
 }
-
+.notes{
+    text-align: center;
+}
 
           /* buttons */
 
